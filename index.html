@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dfc aic jcc">
+        <form id="signupForm" class="dfc gap-05rem padding-3rem">
+
+            <div class="dfc fields ">
+                <img src="Images/Welcome back! 👋.png" width="116" alt="">
+                <h1>Sign up to your account</h1>
+            </div>
+            <div class="dfc fields">
+                <label for="username">Your name</label>
+                <input type="text" id="username" name="name" required>
+            </div>
+
+            <div class="dfc fields">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="dfc fields">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="dfc fields">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <div class="submit-container dfc aic jcc fields">
+                <!-- <input type="submit" value="Continue"> -->
+                                <div id="submit-btn" class="dfr aic jcc"><p>CONTINUE</p></div>
+                    
+            </div>
+            <div id="error" class="dfr aic jcc">
+                <!-- <p>Error: All fields are mandatory!</p> -->
+                <p id="error-msg"></p>
+            </div>
+        </form>
+
+        <div>
+            <p>Don't have an account? <span id="sign-up-text">Sign up</span></p>
+        </div>
+
+        <!-- <img src="Images/Rectangle 1.png" alt=""><img src="Images/Rectangle 2.png" alt=""> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

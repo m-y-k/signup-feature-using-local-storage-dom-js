@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color-main: #F8FAFC;
+    --btn-color: #544CF0;
+    --text-color: #333333;
+    --bg-color-fields: #DEDEDE;
+    --text-error-color: #625BF7;
+    --bg-color-form-shadow: #F4F4F4;
+    --text-btn-in-color: #FFFFFF;
+}
+
+body {
+    scale: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--bg-color-main);
+    color: var(--text-color);
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.2px;
+
+}
+
+.box {
+    height: 100vh;
+}
+
+/* .content-2 {
+    background-image: url('Images/Rectangle\ 2.png');
+    background-position: center 500px;
+    z-index: 2;
+} */
+
+form {
+    background-color: var(--text-btn-in-color);
+    /* align-self: center;
+    align-content: flex-start; */
+    margin-top: 0rem;
+    /* width: 444px;
+    height: 537px; */
+}
+
+.form h1 {
+    width: 100%;
+}
+
+.fields {
+    width: 450px;
+    height: 70px;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.fields input {
+    height: 2rem;
+    /* border-color: var(--bg-color-fields); */
+    border: 1.2px solid var(--bg-color-fields);
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    padding: 2rem 9.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--btn-color);
+    border: none;
+}
+
+#error p {
+    font-weight: 700;
+    color: var(--text-error-color);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#sign-up-text {
+    color: var(--text-error-color);
+}
+
+#submit-btn {
+    width: 450px;
+    padding: 1.2rem 0rem;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    color: var(--text-btn-in-color);
+    font-weight: 800;
+}
+
+#logout-btn {
+    width: 400px;
+    padding: 1.2rem 0rem;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    color: var(--text-btn-in-color);
+    font-weight: 800;
+}
+
+/* profile page css */
+.profile {
+    background-color: var(--text-btn-in-color);
+       width: 444px;
+    height: 537px;
+}
+
+.dp {
+    /* width: 120%; */
+    gap: 0.8rem;
+}
+
+#signup-success-msg {
+    font-weight: 700;
+    color: var(--text-error-color);
+    font-size: 2rem;
+}
+
+#profile-info p {
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+#profile-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* common css code */
+
+.dfr {
+    display: flex;
+    /* align-items: center; */
+}
+
+.dfc {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse {
+    justify-content: space-evenly;
+}
+
+.padding-1rem-tb {
+    padding: 1rem 0rem;
+}
+
+.padding-2rem-tb {
+    padding: 2rem 0rem;
+}
+
+.padding-3rem-tb {
+    padding: 3rem 0rem;
+}
+
+.padding-4rem-tb {
+    padding: 4rem 0rem;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.width-100vw {
+    width: 100vw;
+}
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.padding-2rem {
+    padding: 2rem;
+}
+
+.padding-3rem {
+    padding: 3rem;
+}
+
+.bold-700 {
+    font-weight: 700 !important;
+}
+
+.bold-900 {
+    font-weight: 900 !important;
+}
+
+.underline-selected {
+    font-weight: 900;
+    padding-bottom: 4px;
+    /* Adjust the padding as needed */
+    /* display: inline-block; */
+    border-bottom: 2px solid black;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.scale-06 {
+    /* scale: 0.6; */
+    transform: scale(0.6);
+
+}
+
+.scale-09 {
+    scale: 0.9;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.gap-05rem {
+    gap: 0.5rem;
+}
+
+.gap-1rem {
+    gap: 1rem;
+}
+
+.gap-15rem {
+    gap: 1.5rem;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+
+.gap-3rem {
+    gap: 3rem;
+}
+
+.gap-8rem {
+    gap: 8rem;
+}
+
+.gap-10rem {
+    gap: 10rem;
+}
+
+.btn-dark-outline {
+    border: 2px solid var(--heading-color);
+    padding: 0.5rem 2.5rem;
+}
+
+.btn-dark-fill {
+    border: 2px solid var(--heading-color);
+    padding: 0.5rem 2.5rem;
+    background-color: var(--heading-color);
+    font-weight: 700 !important;
+    font-size: 1rem;
+    color: var(--back-color-main);
+}
